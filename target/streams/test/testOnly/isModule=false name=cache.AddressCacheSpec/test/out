@@ -1,0 +1,33 @@
+[0m[[0minfo[0m] [0m[32mAddressCacheSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32madd[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true on adding value to cache[0m[0m
+[0m[[0minfo[0m] [0m[32mremove[0m[0m
+[0m[[0minfo[0m] [0m[32m- should delete key-value pair from cache[0m[0m
+[0m[[0minfo[0m] [0m[32mpeek[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return the most recently added element *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException: next on empty iterator[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.Iterator$$anon$2.next(Iterator.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.Iterator$$anon$2.next(Iterator.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMapIterator.next(TrieMap.scala:984)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMapIterator.next(TrieMap.scala:963)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.IterableLike.head(IterableLike.scala:106)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.IterableLike.head$(IterableLike.scala:105)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMap.head(TrieMap.scala:631)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at cache.AddressCache.peek(AddressCache.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at cache.AddressCacheSpec.$anonfun$new$3(AddressCacheSpec.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mtake[0m[0m
+[0m[[0minfo[0m] [0m[31m- should retrieves and removes the most recently added element *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException: next on empty iterator[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.Iterator$$anon$2.next(Iterator.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.Iterator$$anon$2.next(Iterator.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMapIterator.next(TrieMap.scala:984)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMapIterator.next(TrieMap.scala:963)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.IterableLike.head(IterableLike.scala:106)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.IterableLike.head$(IterableLike.scala:105)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.concurrent.TrieMap.head(TrieMap.scala:631)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at cache.AddressCache.take(AddressCache.scala:60)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at cache.AddressCacheSpec.$anonfun$new$4(AddressCacheSpec.scala:34)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

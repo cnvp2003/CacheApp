@@ -1,0 +1,24 @@
+build
+testOnly *AddressCacheSpec*
+build
+testOnly *AddressCacheSpec*
+testOnly *AddressEhCacheSpec*
+testOnly *AddressCacheSpec*
+testOnly *AddressEhCacheSpec*
+exit
+testOnly *AddressEhCacheSpec*
+testOnly *AddressCacheSpec*
+testOnly *AddressEhCacheSpec*
+testOnly *AddressCacheSpec*
+scala AddressCache
+scalac AddressCache
+scalac AddressCache(10L,23 second)
+testOnly *AddressCacheSpec*
+build
+exit
+scalac Main
+testOnly *AddressEhCacheSpec*
+exit
+testOnly *AddressEhCacheSpec*
+exit
+testOnly *AddressEhCacheSpec*

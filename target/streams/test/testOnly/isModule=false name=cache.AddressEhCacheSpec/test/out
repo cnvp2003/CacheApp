@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mAddressEhCacheSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mget[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return the value from Ehcache[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return None if the given key does not exist[0m[0m
+[0m[[0minfo[0m] [0m[32madd[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true on adding element to cache[0m[0m
+[0m[[0minfo[0m] [0m[32mpeek[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return all key-value pair from cache[0m[0m
+[0m[[0minfo[0m] [0m[32mput[0m[0m
+[0m[[0minfo[0m] [0m[32m- should put given key-value pair in cache[0m[0m
+[0m[[0minfo[0m] [0m[32m- should put given key-value pair in cache with time[0m[0m
+[0m[[0minfo[0m] [0m[32mremove[0m[0m
+[0m[[0minfo[0m] [0m[32m- should remove given key and its value from cache[0m[0m
